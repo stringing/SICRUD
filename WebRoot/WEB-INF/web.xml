@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>StudentInformationCRUD</display-name>
+  <servlet>
+    <servlet-name>Test</servlet-name>
+    <servlet-class>indiviudal.web.test.Test</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CreateServlet</servlet-name>
+    <servlet-class>individual.ui.CreateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteServlet</servlet-name>
+    <servlet-class>individual.ui.DeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateServlet</servlet-name>
+    <servlet-class>individual.ui.UpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RetrieveServlet</servlet-name>
+    <servlet-class>individual.ui.RetrieveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BackServlet</servlet-name>
+    <servlet-class>individual.ui.BackServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CreateServletD</servlet-name>
+    <servlet-class>indiviudal.controller.CreateServletD</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteServletD</servlet-name>
+    <servlet-class>indiviudal.controller.DeleteServletD</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateServletD</servlet-name>
+    <servlet-class>indiviudal.controller.UpdateServletD</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RetrieveServletD</servlet-name>
+    <servlet-class>indiviudal.controller.RetrieveServletD</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Test</servlet-name>
+    <url-pattern>/servlet/Test</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateServlet</servlet-name>
+    <url-pattern>/servlet/CreateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteServlet</servlet-name>
+    <url-pattern>/servlet/DeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateServlet</servlet-name>
+    <url-pattern>/servlet/UpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RetrieveServlet</servlet-name>
+    <url-pattern>/servlet/RetrieveServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BackServlet</servlet-name>
+    <url-pattern>/servlet/BackServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateServletD</servlet-name>
+    <url-pattern>/servlet/CreateServletD</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteServletD</servlet-name>
+    <url-pattern>/servlet/DeleteServletD</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateServletD</servlet-name>
+    <url-pattern>/servlet/UpdateServletD</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RetrieveServletD</servlet-name>
+    <url-pattern>/servlet/RetrieveServletD</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
